@@ -1,3 +1,41 @@
 body{
-    background: url(../media/yume_background.gif)
+    background: rgb(240, 234, 225);
+}
+
+.headerCont{
+    height: 10%;
+    color: #ffffff;
+    background-color: #1e2238;
+}
+
+.headerCont .logo img{
+    width: 100;
+    margin: .5em;
+    margin-top: 2%;
+}
+
+.menu {
+    margin: 1em;
+    background: fixed;
+    padding: .5em;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1em;
+}
+
+.menu a:hover{
+    background: #6771ac;
+    transform: scale(1.5);
+    border-radius: 0.5em;
 }
